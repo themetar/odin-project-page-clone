@@ -163,4 +163,24 @@ a.main-button { background-color: #6abfc3; }
 
 /* footer */
 
-footer nav a { display: block; }
+footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+footer .row { align-items: center; }  /* row is display:flex */ 
+
+footer nav a {
+  display: block;
+  margin-bottom: .4em;
+  font-weight: 700;
+}
+
+.social { text-align: center; }
+
+.social a {
+  margin: 0 1em;
+  color: var(--odin-color);
+}
+
+.social a:hover { color: #000; }
