@@ -133,6 +133,34 @@ a.main-button { background-color: #6abfc3; }
 
 .course-actions .button { min-width: 80%; }
 
+.mid-section { text-align: center; }
+
+.mid-section a { text-decoration: none; }
+
+.mid-section p:first-of-type { font-size: 2em; }
+
+.advert {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.advert .row {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.advert .row:first-child { border-bottom: 2px solid #eee; }
+
+.advert .row:first-child [class*="col"]:first-child {
+  font-size: 1.8em;
+  color: #999;
+}
+
+.advert .row:nth-child(2) {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
 /* footer */
 
 footer nav a { display: block; }
