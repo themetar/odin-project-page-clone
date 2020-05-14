@@ -10,6 +10,7 @@ html { color: #4a4a4a; }
 a { color: #828282 }
 h2, h3 { color: #212529; }
 
+a:hover { color: #000; }
 
 /* top navigation */
 
@@ -60,6 +61,35 @@ h2, h3 { padding-top: 2em; }
   background-color: #f3f3f3;
 }
 
+.lesson a,
+.end-lesson a { color: var(--odin-color); }
+
+.lesson a:hover,
+.end-lesson a:hover { color: #000; }
+
+.jump-links a {
+  color: #999;
+  text-decoration: none;
+}
+
+.jump-links li {
+  list-style: none;
+  font-size: .8rem;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+.jump-links li::before {
+  content: "";
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  margin-right: 1em;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: #999;
+}
+
 .instructions ol { padding-left: 20px; }
 
 /* end of lesson */
@@ -85,7 +115,10 @@ a.button {
   font-weight: 700;
 }
 
-a.button:hover { opacity: .8; }
+a.button:hover {
+  opacity: .8;
+  color: #fff;
+}
 
 a.main-button { background-color: #6abfc3; }
 
@@ -94,7 +127,7 @@ a.main-button { background-color: #6abfc3; }
   text-align: center;
 }
 
-.course-actions .button { min-width: 60%; }
+.course-actions .button { min-width: 80%; }
 
 /* footer */
 
