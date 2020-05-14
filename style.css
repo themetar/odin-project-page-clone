@@ -91,7 +91,8 @@ h2, h3 { padding-top: 2em; }
   background-color: #999;
 }
 
-.instructions ol { padding-left: 20px; }
+.instructions ol,
+.lesson ul { padding-left: 20px; }
 
 .extra-padding-bottom { padding-bottom: 80px; }
 
